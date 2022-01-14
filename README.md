@@ -27,3 +27,6 @@
 
 ###### Run docker-compose.yml Detached
 `sudo docker-compose up -d`
+
+###### Restart Docker
+`sudo docker restart $(sudo docker ps -a -q)`
