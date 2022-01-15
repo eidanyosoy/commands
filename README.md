@@ -15,6 +15,7 @@
 
 ###### Run Plex Trakt Sync
 `cd /opt/appdata/plextraktsync`
+
 `sudo docker-compose run --name traktsync -d --rm plextraktsync`
 
 ###### Run Dock Server
